@@ -33,6 +33,9 @@ export CLANG_TRIPLE=aarch64-linux-gnu-
 # aarch
 export ARCH=arm64
 export SUBARCH=arm64
+# other
+export LLVM=1
+export BUILD_INITRAMFS=1
 
 # build thread count
 TH_COUNT=1
